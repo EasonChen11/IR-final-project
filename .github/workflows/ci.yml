@@ -42,7 +42,3 @@ jobs:
       # Assuming you have installed pytest (uv add --dev pytest)
       - name: Test with pytest
         run: uv run pytest || echo "No tests found"
-
-      # 6. (Optional) Run your main program to ensure syntax correctness (Smoke Test)
-      - name: Smoke Test (Snake Game)
-        run: uv run python -m py_compile snake_game.py

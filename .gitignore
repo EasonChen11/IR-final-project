@@ -25,4 +25,5 @@ decoded_*.png
 .idea/
 
 # Ignore local Copilot settings
-.github/
+.github/*
+!.github/workflows/

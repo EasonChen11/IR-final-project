@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Test images and outputs
+test_images/
+*.jpg
+*.png
+demo_output.png
+decoded_*.png
+
+# IDEs
+.vscode/
+.idea/
+
+# Ignore local Copilot settings
+.github/
